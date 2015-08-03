@@ -29,4 +29,16 @@
         android:layout_centerHorizontal="true"
         android:indeterminate="false" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="下载进度"
+        android:visibility="gone"
+        android:id="@+id/tv_progress"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/bright_foreground_disabled_material_light"/>
+
 </RelativeLayout>
